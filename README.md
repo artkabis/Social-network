@@ -3,7 +3,6 @@
 ### React / Express / MongoDB / Redux
 
 Start server : `npm start`
-
 Start client : `cd client` + `npm start`
 
 _____________________________
@@ -14,14 +13,16 @@ _____________________________
 * Create `.env` file inside `/config/` within the following data
   - PORT=5000 `your localhost port`
   - CLIENT_URL=http://localhost:3000 `your client url`
-  - DB_USER_PASS=fs:fromscratch `your ID & password`
-  - TOKEN_SECRET=990bf68e6adf1be5f1671bba3bec692056922454 `your random secret key`
+  - DB_USER_PASS=artkabis_db:monmotdepass `your ID & password`
+  - TOKEN_SECRET=4f56ds454f545f454f545f4d5 `your random secret key`[ Generate web token to jwt.io ](https://jwt.io/)
   
+  * Mongodb Atlas `url to database` ![Interface Mongod](./client/public/img/mogodb-atlas-connecting.JPG "MongoDb interface")
 _________________________
   
 ### Front config : 
 * Create a `.env` file within the server URL :
-  - REACT_APP_API_URL=http://localhost:5000/ `your server url`
+  - CHOKIDAR_USEPOLLING=TRUE
+  - REACT_APP_API_URL=http://localhost:5000/ `server url`
     
 _____________________________
 
@@ -29,3 +30,4 @@ _____________________________
 
   
 💻 Made by Julien Az, November 2020. Free to use 
+💻 Custom project to Artkabis, Jun 2021.
